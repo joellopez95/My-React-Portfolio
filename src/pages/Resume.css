@@ -1,0 +1,31 @@
+/* Resume.css */
+
+.resume-section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .resume-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .proficiencies {
+    margin-top: 20px;
+  }
+  
+  .proficiencies h3 {
+    margin-bottom: 10px;
+  }
+  
+  .proficiencies ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .proficiencies li {
+    margin-bottom: 5px;
+  }
+  
+  

@@ -1,0 +1,27 @@
+/* About.css */
+
+.about-section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .avatar-container {
+    margin-right: 20px;
+  }
+  
+  .avatar {
+    width: 150px; 
+    border-radius: 50%;
+  }
+  
+  .bio-container {
+    max-width: 600px;
+  }
+  
+  
