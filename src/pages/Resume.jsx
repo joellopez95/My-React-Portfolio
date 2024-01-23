@@ -1,12 +1,25 @@
 // pages/Resume.jsx
-import './Resume.css'; // Import your styles
+import './Resume.css';
 
 const Resume = () => {
-  const proficiencies = [
+  const frontEndProficiencies = [
     'JavaScript',
     'React',
     'HTML',
     'CSS',
+    'React Router',
+    'Bootstrap',
+    'Tailwind',
+  ];
+
+  const backEndProficiencies = [
+    'Node.js',
+    'Express.js',
+    'MongoDB',
+    'SQL',
+    'NoSQL',
+    'RESTful API',
+    'GraphQL',
   ];
 
   return (
@@ -15,17 +28,27 @@ const Resume = () => {
         <h2>Resume</h2>
         <p>
           Download my resume:{' '}
-          <a href="path/to/your/resume.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/file/d/122bjCIx9jo91xVtNEot_PuFAl6a0S_f2/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             Resume.pdf
           </a>
         </p>
         <div className="proficiencies">
-          <h3>Proficiencies:</h3>
-          <ul>
-            {proficiencies.map((proficiency, index) => (
-              <li key={index}>{proficiency}</li>
-            ))}
-          </ul>
+          <div className="proficiency-column">
+            <h3>Front-End Proficiencies:</h3>
+            <ul>
+              {frontEndProficiencies.map((proficiency, index) => (
+                <li key={index}>{proficiency}</li>
+              ))}
+            </ul>
+          </div>
+          <div className="proficiency-column">
+            <h3>Back-End Proficiencies:</h3>
+            <ul>
+              {backEndProficiencies.map((proficiency, index) => (
+                <li key={index}>{proficiency}</li>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
     </section>

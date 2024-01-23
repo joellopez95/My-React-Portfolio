@@ -1,9 +1,6 @@
-import ReactDOM from 'react-dom/client'
-// Bringing in the required imports from 'react-router-dom' to set up application routing behavior
+import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-
-import 'bootstrap/dist/css/bootstrap.min.css'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
 import Contact from './pages/Contact';
 import About from './pages/About';
@@ -30,6 +27,11 @@ const router = createBrowserRouter([
       {
         path: '/Resume',
         element: <Resume />,
+      },
+      // Redirect '/' to '/About'
+      {
+        path: '/',
+        element: <About />,
       },
     ],
   },
