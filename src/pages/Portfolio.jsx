@@ -1,21 +1,51 @@
-// pages/Portfolio.jsx
+import React from 'react';
 import './Portfolio.css'; // Import your styles
 
 const Portfolio = () => {
   const projects = [
     {
-      title: 'Project 1',
-      image: 'path/to/project1.jpg',
-      deployedLink: 'https://example.com/project1',
-      githubLink: 'https://github.com/username/project1',
+      title: 'Weather Wise',
+      image: '/src/assets/weather-wise.png',
+      deployedLink: 'https://joellopez95.github.io/Weather-Wise/',
+      githubLink: 'https://github.com/joellopez95/Weather-Wise',
     },
-    // Add more projects as needed
+    {
+      title: 'SA-Flavor-Finder',
+      image: '/src/assets/SA-Flavor.png',
+      deployedLink: 'https://joellopez95.github.io/SA-Flavor-Finder/',
+      githubLink: 'https://github.com/joellopez95/SA-Flavor-Finder',
+    },
+    {
+      title: 'Employee-Tracker-App',
+      image: '/src/assets/EmployeeTrack.png',
+      deployedLink:'https://github.com/joellopez95/Employee-Tracker-App',
+      githubLink: 'https://github.com/joellopez95/Employee-Tracker-App'
+    },
+    {
+      title: 'SocialNoSQL-API',
+      image: '/src/assets/NoSQL.png',
+      deployedLink: 'https://app.screencastify.com/v3/watch/7NRedju1pgdJMrAZgiix',
+      githubLink: 'https://github.com/joellopez95/SocialNoSQL-API',
+    },
+    {
+      title: 'PWA-Text-Editor',
+      image: '/src/assets/JATE.png',
+      deployedLink: 'https://example.com/project5',
+      githubLink: 'https://github.com/joellopez95/Progressive-Web-Applications-PWA-Text-Editor',
+    },
+    {
+      title: 'Bite-Bits',
+      image: '/src/assets/BiteBits.png',
+      deployedLink: 'https://bitebits0830-78de9fe35f6a.herokuapp.com/',
+      githubLink: 'https://github.com/codyleight/DishDash',
+    },
   ];
 
   return (
     <section className="portfolio-section">
       <div className="portfolio-content">
-        <h2>Portfolio</h2>
+      <h2>My Portfolio 🚀</h2>
+
         <div className="projects-container">
           {projects.map((project, index) => (
             <div className="project-card" key={index}>
