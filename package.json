@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://sparkling-cannoli-e52d6d.netlify.app/",
   "scripts": {
     "dev": "vite",
     "start": "vite",
