@@ -1,10 +1,11 @@
 // Components/Footer.jsx
-import './Footer.css'; 
 
 const Footer = () => {
   return (
-    <footer className="footer">
-      {/* text or icon links to GitHub, LinkedIn*/}
+    <footer className="bg-dark text-light text-center py-3">
+      <div className="container">
+        <p className="mb-0">Your Copyright Text &copy; {new Date().getFullYear()}</p>
+      </div>
     </footer>
   );
 };
