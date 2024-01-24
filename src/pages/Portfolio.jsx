@@ -5,37 +5,37 @@ const Portfolio = () => {
   const projects = [
     {
       title: 'Weather Wise',
-      image: '/src/assets/weather-wise.png',
+      image: '/assets/weather-wise.png',
       deployedLink: 'https://joellopez95.github.io/Weather-Wise/',
       githubLink: 'https://github.com/joellopez95/Weather-Wise',
     },
     {
       title: 'SA-Flavor-Finder',
-      image: '/src/assets/SA-Flavor.png',
+      image: '/assets/SA-Flavor.png',
       deployedLink: 'https://joellopez95.github.io/SA-Flavor-Finder/',
       githubLink: 'https://github.com/joellopez95/SA-Flavor-Finder',
     },
     {
       title: 'Employee-Tracker-App',
-      image: '/src/assets/EmployeeTrack.png',
+      image: '/assets/weather-wise.png',
       deployedLink:'https://github.com/joellopez95/Employee-Tracker-App',
       githubLink: 'https://github.com/joellopez95/Employee-Tracker-App'
     },
     {
       title: 'SocialNoSQL-API',
-      image: '/src/assets/NoSQL.png',
+      image: '/assets/NoSQL.png',
       deployedLink: 'https://app.screencastify.com/v3/watch/7NRedju1pgdJMrAZgiix',
       githubLink: 'https://github.com/joellopez95/SocialNoSQL-API',
     },
     {
       title: 'PWA-Text-Editor',
-      image: '/src/assets/JATE.png',
+      image: '/assets/JATE.png',
       deployedLink: 'https://example.com/project5',
       githubLink: 'https://github.com/joellopez95/Progressive-Web-Applications-PWA-Text-Editor',
     },
     {
       title: 'Bite-Bits',
-      image: '/src/assets/BiteBits.png',
+      image: '/assets/bitebits.png',
       deployedLink: 'https://bitebits0830-78de9fe35f6a.herokuapp.com/',
       githubLink: 'https://github.com/codyleight/DishDash',
     },
