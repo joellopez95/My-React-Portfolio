@@ -17,7 +17,7 @@ const Portfolio = () => {
     },
     {
       title: 'Employee-Tracker-App',
-      image: '/assets/weather-wise.png',
+      image: '/assets/EmployeeTrack.png',
       deployedLink:'https://github.com/joellopez95/Employee-Tracker-App',
       githubLink: 'https://github.com/joellopez95/Employee-Tracker-App'
     },
