@@ -11,8 +11,8 @@ const Portfolio = () => {
     },
     {
       title: 'SA-Flavor-Finder',
-      image: '/assets/SA-Flavor.png',
-      deployedLink: 'https://joellopez95.github.io/SA-Flavor-Finder/',
+      image: '/assets/SA-Flavor-Finder.png',
+      deployedLink: 'https://sa-flavor-finder-6aib.onrender.com/',
       githubLink: 'https://github.com/joellopez95/SA-Flavor-Finder',
     },
     {
