@@ -28,7 +28,7 @@ const Resume = () => {
         <h2>Resume</h2>
         <p>
           Download my resume:{' '}
-          <a href="https://drive.google.com/file/d/1BFWm5kmKUBvhgZRPnvQarEW34FSEdl8q/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/file/d/12EZ6RzexMJr7SVXDcIT2EURb8LBKMJiA/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             Resume.pdf
           </a>
         </p>
